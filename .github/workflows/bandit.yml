@@ -13,5 +13,5 @@ jobs:
       actions: read
       contents: read
     steps:
-      - name: Perform Bandit Analysis
-        uses: PyCQA/bandit-action@v1
+      - name: Bandit by PyCQA
+        uses: PyCQA/bandit-action@v1.0.1
