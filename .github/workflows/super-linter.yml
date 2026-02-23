@@ -38,3 +38,6 @@ jobs:
         env:
           # To report GitHub Actions status checks
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Bandit by PyCQA
+        uses: PyCQA/bandit-action@v1.0.1
